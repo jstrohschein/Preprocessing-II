@@ -1,7 +1,7 @@
 // Mixins in here
 
-.flexing() {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.buttons-mixin(@size, @shape) {
+  border-radius: @shape * 3;
+  padding: @shape;
+  font-size: @size;
 }
